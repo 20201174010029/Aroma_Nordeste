@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Carrinho_de_compras</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="carrinho_de_compras.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-aroma">
+            <img src="Imagens/logo-paglogin.png" alt="logo Aroma Nordeste">
+        </a>
+        <i class="fa-solid fa-bars" id="menu-mobile"></i>
+        <ul class="navbar">
+            <li><a href="#">Cafés</a></li>
+            <li><a href="#">Acessórios</a></li>
+            <li><a href="#">Eq. de Preparo</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+        <div class="header-icons">
+            <a href="/cadastro">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <form action="buscar" method="post">
+                <input type="search" name="search" id="search" placeholder="Busque aqui">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass" id="search-icon"></i></button> 
+            </form>
+        </div>
+    </header>
+</header>
+
+<section class="carrinho">
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <!--    -->>
+            <div class="carousel-item active">
+                <div class="card">
+                    <img src="Imagens/produtos/copo01.jpg" class="card-img-top" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Café</h5>
+                        <p class="card-text">Preço: R$10.50</p>
+                        <p class="card-text">Quantidade: 05</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+    </div>
+
+    <div class="finalizar-compra">
+        <button class="botao-pag">Finalizar Compra</button>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
